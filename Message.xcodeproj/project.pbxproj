@@ -21,7 +21,8 @@
 		6A55F9ED26F8D11B0041A102 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A55F9EC26F8D11B0041A102 /* VideoPlayerViewController.swift */; };
 		6A55F9EF26F8D14B0041A102 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A55F9EE26F8D14B0041A102 /* NewConversationViewController.swift */; };
 		6A55F9F126F8D15C0041A102 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A55F9F026F8D15C0041A102 /* ProfileViewController.swift */; };
-		6AEE7AE226FA11A600792A02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AEE7AE126FA11A600792A02 /* GoogleService-Info.plist */; };
+		6AE58B0226FB558100E049B5 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE58B0126FB558100E049B5 /* DatabaseManager.swift */; };
+		6AE58B0426FB741100E049B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AE58B0326FB741100E049B5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +43,8 @@
 		6A55F9EC26F8D11B0041A102 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		6A55F9EE26F8D14B0041A102 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		6A55F9F026F8D15C0041A102 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		6AEE7AE126FA11A600792A02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6AE58B0126FB558100E049B5 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		6AE58B0326FB741100E049B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		99BC7CE7CC0B0D7B7314941C /* Pods_Message.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Message.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -97,7 +99,7 @@
 		6A55F9CB26F8C83A0041A102 /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				6AEE7AE126FA11A600792A02 /* GoogleService-Info.plist */,
+				6AE58B0326FB741100E049B5 /* GoogleService-Info.plist */,
 				6A55F9E426F8CEA40041A102 /* Resources */,
 				6A55F9E326F8CE960041A102 /* ViewModels */,
 				6A55F9E226F8CE8E0041A102 /* Models */,
@@ -150,6 +152,7 @@
 				6A55F9CC26F8C83A0041A102 /* AppDelegate.swift */,
 				6A55F9CE26F8C83A0041A102 /* SceneDelegate.swift */,
 				6A51224A26F92DD200218212 /* Extensions.swift */,
+				6AE58B0126FB558100E049B5 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -231,7 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A55F9D926F8C83A0041A102 /* LaunchScreen.storyboard in Resources */,
-				6AEE7AE226FA11A600792A02 /* GoogleService-Info.plist in Resources */,
+				6AE58B0426FB741100E049B5 /* GoogleService-Info.plist in Resources */,
 				6A55F9D626F8C83A0041A102 /* Assets.xcassets in Resources */,
 				6A55F9D426F8C83A0041A102 /* Main.storyboard in Resources */,
 			);
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A55F9E726F8D0CF0041A102 /* LoginViewController.swift in Sources */,
+				6AE58B0226FB558100E049B5 /* DatabaseManager.swift in Sources */,
 				6A55F9E926F8D0E90041A102 /* RegisterViewController.swift in Sources */,
 				6A55F9EF26F8D14B0041A102 /* NewConversationViewController.swift in Sources */,
 				6A55F9D126F8C83A0041A102 /* ConversationsViewController.swift in Sources */,
